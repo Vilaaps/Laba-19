@@ -124,3 +124,57 @@
 //     let result = a + b;
 //     return result * 2;
 // };
+
+// let numbersArr = [1, 2, 3, 4, 5];
+// console.log(numbersArr);
+
+// console.log(numbersArr[0]);
+// console.log(numbersArr[1]);
+
+// let colors=["red","yellow","grean"];
+// console.log(colors[0]);
+// console.log(colors[2]);
+// colors[2]="blue"
+// console.log(colors)
+
+// console.log(numbersArr.length);
+
+// numbersArr.push(10);
+// console.log(numbersArr);
+
+// numbersArr.pop();
+// console.log(numbersArr);
+
+// let students = [];
+// students.push("Анна", "Иван", "Мария");
+// students.pop();
+// console.log(students);
+
+// let numbers2 = [10, 20, 30];
+// for (let i = 0; i < numbers2.length; i++) {
+//     console.log(numbers2[i]);
+// }
+
+// for (let value of numbers2) {
+//     console.log(value);
+// }
+
+// let mixedArray = [1, "text", true, 3.14];
+// console.log(mixedArray);
+
+let city = ["Москва", "Сочи", "Волгоград"];
+let a = "Сочи";
+let b = false;
+let x = -1;
+for (let i = 0; i < city.length; i++) {
+    if (city[i] === a) {
+        b = true;
+        x = i;
+        break;
+    }
+}
+if (b) {
+    console.log(`${x}`);
+} else {
+    console.log(`${a}`);
+}
