@@ -162,19 +162,81 @@
 // let mixedArray = [1, "text", true, 3.14];
 // console.log(mixedArray);
 
-let city = ["Москва", "Сочи", "Волгоград"];
-let a = "Сочи";
-let b = false;
-let x = -1;
-for (let i = 0; i < city.length; i++) {
-    if (city[i] === a) {
-        b = true;
-        x = i;
-        break;
-    }
-}
-if (b) {
-    console.log(`${x}`);
-} else {
-    console.log(`${a}`);
-}
+// let city = ["Москва", "Сочи", "Волгоград"];
+// let a = "Сочи";
+// let b = false;
+// let x = -1;
+// for (let i = 0; i < city.length; i++) {
+//     if (city[i] === a) {
+//         b = true;
+//         x = i;
+//         break;
+//     }
+// }
+// if (b) {
+//     console.log(`${x}`);
+// } else {
+//     console.log(`${a}`);
+// }
+
+// let user2 = {
+//     name: "Ivan",
+//     age: 20,
+//     isStudent: true,
+// };
+// console.log(user2);
+
+// console.log(user2.name);
+// console.log(user2.age);
+// console.log(user2["name"]);
+
+// let book = {
+//     title: "Война и мир",
+//     author: "Толстой",
+//     year: 1845
+// };
+// console.log(book.title);
+// console.log(book.author);
+// console.log(book.year);
+// book.year=2356;
+// console.log(book.year);
+
+// let user2 = {
+//     name: "Ivan",
+//     age: 20,
+//     isStudent: true
+// };
+// user2.sayHello = function() {
+//     console.log(`Hello, my name is ${this.name}`);
+// };
+// user2.sayHello();
+
+// let car = {
+//     brand: "bmw",
+//     year: 2008,
+//     getInfo: function() {
+//         console.log(`${this.brand} - ${this.year}`);
+//     }
+// };
+// car.getInfo();
+
+// let product = {
+//     name: "Пк",
+//     price: 245000,
+//     category: "Техника",
+//     inStock: true
+// };
+// for (let i in product){
+//     console.log(i + ": " + product[i]);
+// }
+
+// let student = {
+//     name: "Григорий",
+//     skills: ["HTML", "CSS", "JS"],
+//     address: {
+//         city: "Волжский",
+//         street: "Пушкина"
+//     }
+// };
+// console.log(student.skills[0]);
+// console.log(student.address.city);
